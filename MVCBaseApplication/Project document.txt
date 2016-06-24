@@ -3,11 +3,21 @@ Update web.config connection string database name: DEV-2\SQLEXPRESS
 ApplicationUser, ApplicationDbContext is a separate file.
 Take all classes from AccountViewModels.cs and put them in a separate file under ViewModels folder.
 
+---------------------------------------------------
+
 Add firstname, lastname, address and postcode properties in ApplicationUser.cs and RegisterViewModel.cs
 Add validation annotations in RegisterViewModel.cs
 Add html markup in register.cshtml
 
+---------------------------------------------------
+
 Take all classes from ManageViewModels.cs and put them under ViewModels.ManageAccountViewModels
 Update ViewModel location on all Views for Account controller and Manage controller. 
+
+---------------------------------------------------
+
+Add Birthday property to ApplicationUser and RegisterViewModel.
+Add custom validation Min18Years.cs in folder BusinessRules.
+Apply Min18Years attribute to Birthday property in RegisterViewModel.
 
 

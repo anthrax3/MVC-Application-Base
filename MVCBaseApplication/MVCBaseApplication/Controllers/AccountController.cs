@@ -160,6 +160,7 @@ namespace MVCBaseApplication.Controllers
                 var user = new ApplicationUser { 
                     FirstName = model.FirstName,
                     LastName = model.LastName,
+                    BirthDay = model.BirthDay,
                     Address = model.Address,
                     PostCode = model.PostCode,
                     UserName = model.Email,

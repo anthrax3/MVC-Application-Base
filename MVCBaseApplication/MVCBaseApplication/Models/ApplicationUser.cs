@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System;
 
 namespace MVCBaseApplication.Models
 {
@@ -12,8 +13,8 @@ namespace MVCBaseApplication.Models
 
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        
-        //public int Age { get; set; }
+
+        public DateTime? BirthDay { get; set; }
         
         public string Address { get; set; }
         public string PostCode { get; set; }

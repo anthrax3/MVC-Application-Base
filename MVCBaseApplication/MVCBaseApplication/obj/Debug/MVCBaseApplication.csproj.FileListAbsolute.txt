@@ -58,3 +58,6 @@ C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\bin\Microsoft.
 C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\obj\Debug\MVCBaseApplication.dll
 C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\obj\Debug\MVCBaseApplication.pdb
+C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\obj\Debug\MVCBaseApplication.Migrations.InitialCreate.resources
+C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\obj\Debug\MVCBaseApplication.csproj.GenerateResource.Cache
+C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\obj\Debug\MVCBaseApplication.Migrations.userbirthday.resources
