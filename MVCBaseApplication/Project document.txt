@@ -49,3 +49,19 @@ INSERT INTO [dbo].[AspNetUserRoles] ([UserId], [RoleId]) VALUES (N'689ec0eb-94d3
 
 Update-database
 
+
+---------------------------------------------------
+
+
+ApplicationManager role will have detailed (admin) views
+Normal user will have standard READ ONLY views.
+
+if (User.IsInRole("ApplicationManager"))
+{ return View("List")
+} else
+return View("ReadOnlyView")
+
+Decorate Create, Edit, update and delete views with [Authorize(Roles= "ApplicationManager")]
+
+Avoid magic strings. Create a static class in BusinessRules and use const property instead of magic strings.
+[Authorize(Roles=RoleName.ApplicationManager)] 

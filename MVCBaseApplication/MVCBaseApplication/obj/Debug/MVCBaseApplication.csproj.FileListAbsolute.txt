@@ -62,3 +62,4 @@ C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\obj\Debug\MVCB
 C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\obj\Debug\MVCBaseApplication.csproj.GenerateResource.Cache
 C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\obj\Debug\MVCBaseApplication.Migrations.userbirthday.resources
 C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\obj\Debug\MVCBaseApplication.Migrations.SeedUsers.resources
+C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\obj\Debug\MVCBaseApplication.csprojResolveAssemblyReference.cache
