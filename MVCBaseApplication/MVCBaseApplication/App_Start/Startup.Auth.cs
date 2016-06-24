@@ -54,9 +54,9 @@ namespace MVCBaseApplication
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "1757080961202343",
+               appSecret: "7b6cf11ca3a49f300982770b05fdd265");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{

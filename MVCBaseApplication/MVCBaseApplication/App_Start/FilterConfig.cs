@@ -10,6 +10,9 @@ namespace MVCBaseApplication
             filters.Add(new HandleErrorAttribute());
             // uncomment this code to strict access to entire website
             //filters.Add(new AuthorizeAttribute());
+
+            // this filter will make application SSL Ready
+            filters.Add(new RequireHttpsAttribute());
         }
     }
 }

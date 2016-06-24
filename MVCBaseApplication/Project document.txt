@@ -65,3 +65,50 @@ Decorate Create, Edit, update and delete views with [Authorize(Roles= "Applicati
 
 Avoid magic strings. Create a static class in BusinessRules and use const property instead of magic strings.
 [Authorize(Roles=RoleName.ApplicationManager)] 
+
+---------------------------------------------------
+
+Adding Social Logins
+Set SSL to true in application through project properties. Select project and press F4
+https://localhost:44304/
+add filters.Add(new RequireHttpsAttribute()); in FilterConfig.cs
+
+test email
+softwarebeingtesting@gmail.com
+Yomean Tested
+pass word 123$
+
+
+
+Facebook SDK
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1757080961202343',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+App name = MVCBaseApplication
+app.UseFacebookAuthentication(
+               appId: "1757080961202343",
+               appSecret: "7b6cf11ca3a49f300982770b05fdd265");
+
+---------------------------------------------------
+
+Update ExternalLoginConfirmationViewModel
+Update AccountController ExternalLoginConfirmation post method to include remaining ApplicationUser properties.
+Min18Year not applied - to do list!
+

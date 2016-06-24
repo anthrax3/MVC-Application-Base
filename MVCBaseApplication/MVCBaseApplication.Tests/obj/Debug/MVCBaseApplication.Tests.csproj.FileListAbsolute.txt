@@ -46,3 +46,5 @@ C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication.Tests\bin\Debu
 C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication.Tests\obj\Debug\MVCBaseApplication.Tests.csprojResolveAssemblyReference.cache
 C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication.Tests\obj\Debug\MVCBaseApplication.Tests.dll
 C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication.Tests\obj\Debug\MVCBaseApplication.Tests.pdb
+C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.dll
+C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.xml

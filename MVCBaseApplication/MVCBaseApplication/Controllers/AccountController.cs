@@ -388,7 +388,14 @@ namespace MVCBaseApplication.Controllers
                 {
                     return View("ExternalLoginFailure");
                 }
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser {
+                    FirstName = model.FirstName,
+                    LastName = model.LastName,
+                    BirthDay = model.BirthDay,
+                    Address = model.Address,
+                    PostCode = model.PostCode,
+                    UserName = model.Email,
+                    Email = model.Email };
                 var result = await UserManager.CreateAsync(user);
                 if (result.Succeeded)
                 {
