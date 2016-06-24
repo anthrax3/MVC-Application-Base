@@ -1,4 +1,3 @@
-C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\obj\Debug\MVCBaseApplication.csprojResolveAssemblyReference.cache
 C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\bin\MVCBaseApplication.dll.config
 C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\bin\MVCBaseApplication.dll
 C:\faz\MVC Application Base\MVCBaseApplication\MVCBaseApplication\bin\MVCBaseApplication.pdb

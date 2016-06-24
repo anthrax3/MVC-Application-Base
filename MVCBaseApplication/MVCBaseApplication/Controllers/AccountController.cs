@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using MVCBaseApplication.Models;
+using MVCBaseApplication.ViewModels;
 
 namespace MVCBaseApplication.Controllers
 {
@@ -75,7 +76,12 @@ namespace MVCBaseApplication.Controllers
 
             // This doesn't count login failures towards account lockout
             // To enable password failures to trigger account lockout, change to shouldLockout: true
-            var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: false);
+            var result = await SignInManager.PasswordSignInAsync(
+                
+                model.Email, 
+                model.Password, 
+                model.RememberMe, 
+                shouldLockout: false);
             switch (result)
             {
                 case SignInStatus.Success:
@@ -151,7 +157,13 @@ namespace MVCBaseApplication.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { 
+                    FirstName = model.FirstName,
+                    LastName = model.LastName,
+                    Address = model.Address,
+                    PostCode = model.PostCode,
+                    UserName = model.Email,
+                    Email = model.Email };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

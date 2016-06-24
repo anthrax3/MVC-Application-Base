@@ -1,0 +1,11 @@
+c# mvc web application visual studio 2013
+Update web.config connection string database name: DEV-2\SQLEXPRESS
+ApplicationUser, ApplicationDbContext is a separate file.
+Take all classes from AccountViewModels.cs and put them in a separate file under ViewModels folder.
+
+Add firstname, lastname, address and postcode properties in ApplicationUser.cs and RegisterViewModel.cs
+Add validation annotations in RegisterViewModel.cs
+Add html markup in register.cshtml
+
+
+
