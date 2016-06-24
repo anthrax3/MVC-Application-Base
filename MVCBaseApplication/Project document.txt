@@ -7,5 +7,7 @@ Add firstname, lastname, address and postcode properties in ApplicationUser.cs a
 Add validation annotations in RegisterViewModel.cs
 Add html markup in register.cshtml
 
+Take all classes from ManageViewModels.cs and put them under ViewModels.ManageAccountViewModels
+Update ViewModel location on all Views for Account controller and Manage controller. 
 
 

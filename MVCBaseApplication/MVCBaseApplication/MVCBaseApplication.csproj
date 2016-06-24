@@ -184,6 +184,14 @@
     <Compile Include="ViewModels\ForgotPasswordViewModel.cs" />
     <Compile Include="ViewModels\ForgotViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\ManageAccountViewModels\AddPhoneNumberViewModel.cs" />
+    <Compile Include="ViewModels\ManageAccountViewModels\ChangePasswordViewModel.cs" />
+    <Compile Include="ViewModels\ManageAccountViewModels\ConfigureTwoFactorViewModel.cs" />
+    <Compile Include="ViewModels\ManageAccountViewModels\FactorViewModel.cs" />
+    <Compile Include="ViewModels\ManageAccountViewModels\IndexViewModel.cs" />
+    <Compile Include="ViewModels\ManageAccountViewModels\ManageLoginsViewModel.cs" />
+    <Compile Include="ViewModels\ManageAccountViewModels\SetPasswordViewModel.cs" />
+    <Compile Include="ViewModels\ManageAccountViewModels\VerifyPhoneNumberViewModel.cs" />
     <Compile Include="ViewModels\RegisterViewModel.cs" />
     <Compile Include="ViewModels\ResetPasswordViewModel.cs" />
     <Compile Include="ViewModels\SendCodeViewModel.cs" />
