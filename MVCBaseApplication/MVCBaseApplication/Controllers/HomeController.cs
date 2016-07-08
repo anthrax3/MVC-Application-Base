@@ -20,6 +20,14 @@ namespace MVCBaseApplication.Controllers
             return View();
         }
 
+          public ActionResult extendedIdentity()
+        {
+            ViewBag.Message = "Extended User idenitity model";
+
+            return View();
+        }
+
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
@@ -28,3 +36,4 @@ namespace MVCBaseApplication.Controllers
         }
     }
 }
+

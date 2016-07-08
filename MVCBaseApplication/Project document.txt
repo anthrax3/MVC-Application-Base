@@ -112,3 +112,14 @@ Update ExternalLoginConfirmationViewModel
 Update AccountController ExternalLoginConfirmation post method to include remaining ApplicationUser properties.
 Min18Year not applied - to do list!
 
+to do list:
+
+Min18Year not applied - to do list!
+Repository Pattern
+Get, list, paging, filtering of entity
+API DTOs
+OData querying for DTOs
+DI - Ninject, StructureMap, Unity
+AutoMapper
+SQL, MongoDB, MySQL connections and contexts
+

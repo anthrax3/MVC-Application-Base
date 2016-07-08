@@ -20,7 +20,7 @@ namespace MVCBaseApplication.ViewModels
         [MaxLength(15, ErrorMessage = "Last Name cannot be longer than 15 characters.")]
         public string LastName { get; set; }
 
-        [Display(Name = "BirthDay")]
+        [Display(Name = "Date Of Birth")]
         [Min18Years]
         public DateTime? BirthDay { get; set; }
 
